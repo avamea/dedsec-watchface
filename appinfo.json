@@ -1,0 +1,51 @@
+{
+    "appKeys": {},
+    "capabilities": [
+        ""
+    ],
+    "companyName": "Oscar R.C.",
+    "longName": "DEDSEC Watch",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "file": "images/icon.png",
+                "menuIcon": true,
+                "name": "ICON",
+                "type": "png"
+            },
+            {
+                "file": "images/signal.png",
+                "name": "SIGNAL",
+                "type": "png"
+            },
+            {
+                "characterRegex": "[0-9]",
+                "file": "fonts/HACKED_Title.ttf",
+                "name": "WATCHDOGS_SUBSET_58",
+                "type": "font"
+            },
+            {
+                "file": "images/charging_bn.png",
+                "name": "BATTERY_CHARGING",
+                "type": "png"
+            },
+            {
+                "file": "images/dedsec.png",
+                "name": "DEDSEC_LOGO",
+                "type": "png"
+            }
+        ]
+    },
+    "sdkVersion": "3",
+    "shortName": "DEDSEC",
+    "targetPlatforms": [
+        "aplite",
+        "basalt"
+    ],
+    "uuid": "13371337-b83e-4189-a422-63ba144674dc",
+    "versionLabel": "2.0",
+    "watchapp": {
+        "watchface": true
+    }
+}
