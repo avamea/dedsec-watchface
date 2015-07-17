@@ -9,14 +9,13 @@
     "resources": {
         "media": [
             {
-                "file": "images/icon.png",
-                "menuIcon": true,
-                "name": "ICON",
+                "file": "images/dedsec.png",
+                "name": "DEDSEC_LOGO",
                 "type": "png"
             },
             {
-                "file": "images/signal.png",
-                "name": "SIGNAL",
+                "file": "images/charging_bn.png",
+                "name": "BATTERY_CHARGING",
                 "type": "png"
             },
             {
@@ -26,13 +25,14 @@
                 "type": "font"
             },
             {
-                "file": "images/charging_bn.png",
-                "name": "BATTERY_CHARGING",
+                "file": "images/signal.png",
+                "name": "SIGNAL",
                 "type": "png"
             },
             {
-                "file": "images/dedsec.png",
-                "name": "DEDSEC_LOGO",
+                "file": "images/icon.png",
+                "menuIcon": true,
+                "name": "ICON",
                 "type": "png"
             }
         ]
