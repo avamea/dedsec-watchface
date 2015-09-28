@@ -3,8 +3,8 @@
     "capabilities": [
         ""
     ],
-    "companyName": "osk.r.pnk@gmail.com",
-    "longName": "prueba",
+    "companyName": "Oscar R.C.",
+    "longName": "DEDSEC",
     "projectType": "native",
     "resources": {
         "media": [
@@ -31,6 +31,7 @@
             },
             {
                 "file": "images/icon.png",
+                "menuIcon": true,
                 "name": "ICON",
                 "type": "png"
             },
@@ -47,9 +48,14 @@
         ]
     },
     "sdkVersion": "3",
-    "shortName": "prueba",
-    "uuid": "69461173-999b-440d-ba67-e555da0aab15",
-    "versionLabel": "1.0",
+    "shortName": "DEDSEC",
+    "targetPlatforms": [
+        "aplite",
+        "basalt",
+        "chalk"
+    ],
+    "uuid": "13371337-b83e-4189-a422-63ba144674dc",
+    "versionLabel": "3.0",
     "watchapp": {
         "watchface": false
     }
