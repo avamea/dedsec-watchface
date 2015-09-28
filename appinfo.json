@@ -4,7 +4,7 @@
         ""
     ],
     "companyName": "Oscar R.C.",
-    "longName": "DEDSEC",
+    "longName": "DEDSEC Watchface",
     "projectType": "native",
     "resources": {
         "media": [
@@ -57,6 +57,6 @@
     "uuid": "13371337-b83e-4189-a422-63ba144674dc",
     "versionLabel": "3.0",
     "watchapp": {
-        "watchface": false
+        "watchface": true
     }
 }

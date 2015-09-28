@@ -176,19 +176,26 @@ static void main_window_load(Window *window) {
 	layer_add_child(window_get_root_layer(window), text_layer_get_layer(s_connection_layer));
      
 	//Create hacking text layer
-	s_hacking_layer = text_layer_create(GRect(0, bounds.size.h*0.80, bounds.size.w, 18));
-  text_layer_set_background_color(s_hacking_layer, GColorClear);
-  text_layer_set_text_color(s_hacking_layer, GColorWhite);
-  text_layer_set_text(s_hacking_layer, "_hacking is our weapon");	
+	s_hacking_layer = text_layer_create(GRect(0, bounds.size.h*0.81, bounds.size.w, 18));
+  	text_layer_set_background_color(s_hacking_layer, GColorClear);
+  	text_layer_set_text_color(s_hacking_layer, GColorWhite);
+  	text_layer_set_text(s_hacking_layer, "_hacking is our weapon");
 	text_layer_set_font(s_hacking_layer, fonts_get_system_font(FONT_KEY_GOTHIC_14));
+		
 	layer_add_child(window_get_root_layer(window), text_layer_get_layer(s_hacking_layer));
   
   //Create date text layer
-	s_date_layer = text_layer_create(GRect(0, bounds.size.h*0.88, bounds.size.w, 18));
-  text_layer_set_background_color(s_date_layer, GColorClear);
-  text_layer_set_text_color(s_date_layer, GColorWhite);
-  text_layer_set_text(s_date_layer, "MON_01_01_2001");	
-	text_layer_set_font(s_date_layer, fonts_get_system_font(FONT_KEY_GOTHIC_14));
+	s_date_layer = text_layer_create(GRect(0, bounds.size.h*0.90, bounds.size.w, 18));
+  	text_layer_set_background_color(s_date_layer, GColorClear);
+  	text_layer_set_text_color(s_date_layer, GColorWhite);
+  	text_layer_set_text(s_date_layer, "MON_01_01_2001");	
+	
+	#ifdef PBL_ROUND
+		text_layer_set_font(s_date_layer, fonts_get_system_font(FONT_KEY_GOTHIC_09));
+	#else
+		text_layer_set_font(s_date_layer, fonts_get_system_font(FONT_KEY_GOTHIC_14));
+	#endif
+		
 	layer_add_child(window_get_root_layer(window), text_layer_get_layer(s_date_layer));
   
   //Text Alignment
